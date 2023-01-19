@@ -1,5 +1,5 @@
 #titl {
-    margin-top: 0px;
+    margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
     font-family: sans-serif;
@@ -27,11 +27,13 @@
   }
 
   #shadowBox {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
     /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     /* Black w/opacity/see-through */
-    border: 3px solid;
+    text-align: center;
   }
   
   .rainbow {
@@ -77,4 +79,28 @@
 
 
 
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
   }
